@@ -31,8 +31,8 @@ function change_myselect() {
                 }
                 var smartstr = dumbnum.replace("","");
                 var myint = parseInt(smartstr);
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
-                ctx.fillStyle = "red";
+                ctx.clearRect(1, 1, canvas.width, canvas.height);
+                ctx.fillStyle = "blue";
                 ctx.fillRect(0,0,myint + 100,50);
                 break;
                 }

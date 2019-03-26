@@ -33,7 +33,7 @@ function change_myselect() {
                 var myint = parseInt(smartstr);
                 ctx.clearRect(1, 1, canvas.width, canvas.height);
                 ctx.fillStyle = "blue";
-                ctx.fillRect(0,0,myint + 0,50);
+                ctx.fillRect(0,0,myint + 5,75);
                 break;
                 }
         }
